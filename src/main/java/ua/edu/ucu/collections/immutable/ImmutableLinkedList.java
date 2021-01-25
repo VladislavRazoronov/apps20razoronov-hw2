@@ -1,7 +1,7 @@
 package ua.edu.ucu.collections.immutable;
 
 public class ImmutableLinkedList implements ImmutableList {
-    Node start;
+    private Node start;
 
     public ImmutableLinkedList() {
         start = new Node(null, null);

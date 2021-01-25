@@ -1,7 +1,7 @@
 package ua.edu.ucu.collections.immutable;
 
 public class ImmutableArrayList implements ImmutableList {
-    Object[] arr;
+    private Object[] arr;
 
     public ImmutableArrayList() {
         arr = new Object[0];
